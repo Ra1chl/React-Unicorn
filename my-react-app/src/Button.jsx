@@ -2,7 +2,7 @@ function Button(){
   
     const handleClick = (e) => e.target.textContent = "OUCH!";
 
-    return(<button onDoubleClick={handleClick}>Click me!</button>)
+    return(<button className="crazy-button" onDoubleClick={handleClick}>Click me!</button>)
 
 }
 

@@ -5,7 +5,7 @@ function Typing(){
     const [name,setName] = useState("Guest");
     const [quant,setQuant] = useState();
     const [comment, setComment]= useState();
-const [pay,setPay] = useState();
+    const [pay,setPay] = useState();
     const [shipping,setShipping] = useState();
 
     function handleNameChange(event){
@@ -47,7 +47,7 @@ const [pay,setPay] = useState();
                 <option value="GiftCard">GiftCard</option>
             </select>
 
-            
+
             <p>Shipping: {shipping}</p>
             <label>
                 <input type="radio" value="Pick Up" 

@@ -96,3 +96,147 @@
 .count-button:hover{
   background-color: rgb(52, 181, 251);
 }
+
+.color-picker-con{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  margin: 50px;
+  font-size: 3rem;
+}
+
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid gainsboro;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.color-display p {
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+labet{
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 66%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  text-align: center;
+}
+
+.student-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.student-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.student-item {
+  background-color: #f8f8f8;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.student-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.student-age, .student-school {
+  font-style: italic;
+  color: #666;
+}
+.input-field {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  margin: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.crazy-button {
+  margin-top: 30px;
+  padding: 18px 32px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #ff0080, #ff8c00); /* neon růžovo-oranžová */
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 10px 25px rgba(255, 0, 128, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.crazy-button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 30px rgba(255, 0, 128, 0.6);
+}
+
+.crazy-button:active {
+  transform: scale(0.95);
+  background: linear-gradient(135deg, #ff4da6, #ffaa33);
+  box-shadow: 0 6px 18px rgba(255, 0, 128, 0.3);
+}
